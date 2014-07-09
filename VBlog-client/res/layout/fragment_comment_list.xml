@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe0e0e0"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/comment_list_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/comment_list_bottom_bg" >
+
+        <EditText
+            android:id="@+id/comment_list_reply_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/comment_list_reply_button_bg"
+            android:inputType="none"
+            android:focusable="false"
+            android:gravity="left|center"
+            android:hint="@string/fragment_comment_list_hint_reply"
+            android:paddingLeft="5.0dip"
+            android:textColor="#555555"
+            android:textColorHint="#cccccc"
+            android:textSize="13.0sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/comment_list_bottom_layout"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+
+</RelativeLayout>

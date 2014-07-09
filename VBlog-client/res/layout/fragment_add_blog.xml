@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#ffffffff"
+    android:gravity="fill"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/add_blog_username"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.0"
+        android:background="#ffffffff"
+        android:gravity="left|center"
+        android:hint="标题"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:maxLength="50"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#333333"
+        android:textColorHint="#999999"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#cccccc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/add_blog_category_spinner"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/add_blog_new_category"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffffff"
+            android:clickable="true"
+            android:gravity="center"
+            android:hint="输入新的分类"
+            android:inputType="textCapSentences|textAutoCorrect|textMultiLine"
+            android:singleLine="true"
+            android:textColor="#333333"
+            android:textColorHint="#999999"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#cccccc" />
+
+    <EditText
+        android:id="@+id/add_blog_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffffff"
+        android:clickable="true"
+        android:gravity="top|left|center"
+        android:hint="说点什么"
+        android:inputType="textCapSentences|textAutoCorrect|textMultiLine"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:singleLine="false"
+        android:textColor="#333333"
+        android:textColorHint="#999999"
+        android:textColorLink="#ff21759b"
+        android:textSize="16sp" />
+
+</LinearLayout>

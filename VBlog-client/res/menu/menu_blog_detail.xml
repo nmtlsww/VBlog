@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/action_detail_edit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_detail_edit_blog"/>
+    
+    <item
+        android:id="@+id/action_detail_remove"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_detail_remove_blog"/>
+    
+    <item
+        android:id="@+id/action_detail_info"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_detail_info_blog"/>
+
+</menu>

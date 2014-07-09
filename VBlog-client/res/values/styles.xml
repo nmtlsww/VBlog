@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+
+    <style name="VBlog.Theme.AppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/VBlog.Widget.ActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/VBlog.Widget.Holo.ActionBar.TabText</item>
+        <item name="android:homeAsUpIndicator">@drawable/ab_home_as_up_indicator</item>
+        <item name="android:actionOverflowButtonStyle">@style/VBlog.Widget.ActionButton.Overflow</item>
+    </style>
+
+    <style name="VBlog.Widget.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/ab_background</item>
+        <item name="android:backgroundStacked">@color/ab_tab_indicator_normal</item>
+        <item name="android:titleTextStyle">@style/VBlog.Widget.ActionBar.Title</item>
+    </style>
+
+    <style name="VBlog.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/ab_text_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="VBlog.Widget.Holo.ActionBar.TabText" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="VBlog.Widget.ActionButton.Overflow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_overflow</item>
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+</resources>

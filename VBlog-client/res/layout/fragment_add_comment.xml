@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#ffffffff"
+    android:gravity="fill"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/add_comment_username"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_weight="0.0"
+        android:background="#ffffffff"
+        android:gravity="left|center"
+        android:hint="用户名"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:longClickable="true"
+        android:maxLength="50"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:textColor="#333333"
+        android:textColorHint="#999999"
+        android:textSize="14.0sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#cccccc" />
+    
+    <EditText
+        android:id="@+id/add_comment_email"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_weight="0.0"
+        android:background="#ffffffff"
+        android:gravity="left|center"
+        android:hint="邮箱（可不填）"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:longClickable="true"
+        android:maxLength="50"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:textColor="#333333"
+        android:textColorHint="#999999"
+        android:textSize="14.0sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#cccccc" />
+
+    <EditText
+        android:id="@+id/add_comment_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="#ffffffff"
+        android:clickable="true"
+        android:gravity="top|left|center"
+        android:hint="说点什么"
+        android:inputType="textCapSentences|textAutoCorrect|textMultiLine"
+        android:longClickable="true"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:paddingTop="10.0dip"
+        android:singleLine="false"
+        android:textColor="#333333"
+        android:textColorHint="#999999"
+        android:textColorLink="#ff21759b"
+        android:textSize="14.0sp" />
+
+</LinearLayout>
