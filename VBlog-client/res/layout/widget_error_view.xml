@@ -12,6 +12,7 @@
         android:padding="8dp"
         android:scaleType="center"
         android:textColor="@drawable/error_view_text_bg"
+        android:text="@string/view_error_text"
         android:textSize="18sp"/>
 
 </RelativeLayout>

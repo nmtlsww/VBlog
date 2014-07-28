@@ -6,22 +6,10 @@
     android:background="#ffe0e0e0"
     android:orientation="vertical" >
 
-    <android.support.v4.widget.SwipeRefreshLayout
-        android:id="@+id/swipe_refresh"
+    <com.wwly.vblog.ui.widget.PlusListView
+        android:id="@+id/plus_listview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
-		
-        <ListView
-            android:id="@+id/listview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:cacheColorHint="@null"
-            android:divider="@null"
-            android:fadingEdge="none"
-            android:footerDividersEnabled="false"
-            android:headerDividersEnabled="false"
-            android:listSelector="@android:color/transparent" >
-        </ListView>
-    </android.support.v4.widget.SwipeRefreshLayout>
+    </com.wwly.vblog.ui.widget.PlusListView>
 
 </RelativeLayout>
